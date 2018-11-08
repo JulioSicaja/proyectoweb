@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+   /* box-sizing: border-box;*/
+}
+body{
+    background-color: fuchsia;
+}
+
+/*Estilo para moviles*/
+@media only screen and (max-width: 500px){
+    body{
+        background-color: darkkhaki;
+    }
+    .cuerpo{
+        position: relative;
+        width: 100%;
+        height: 1000px;
+        background-color: darkkhaki;
+    }
+    .enca{
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        z-index: 1;
+        color: white;
+        font-family: nova;
+        font-size: 12pt;
+    }
+    .foto{
+        position: relative;
+        width: 85%;
+        height: 300px;
+        background-image: url("../Imagenes/original/Antigua,_Guatemala.jpg");
+        background-size: 100% 100%;
+        margin:auto;
+        top: 110px;
+    }
+    .login{
+        position: relative;
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        top: 150px;
+        background-color: aliceblue;    
+    }
+    .pie{
+        position: relative;
+        width: 100%;
+        height: 150px;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.82);
+    }
+}
+
+/*Estilo para tabletas*/
+@media only screen and (min-width: 501px) and (max-width: 959px){
+    body{
+        background-color: #192580;
+    }
+    .cuerpo{
+        position: relative;
+        width: 100%;
+        height: 1500px;
+        background-color: darkkhaki;
+    }
+    .enca{
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        z-index: 1;
+        color: white;
+        font-family: nova;
+        font-size: 15pt;
+    }
+    .foto{
+        position: relative;
+        width: 95%;
+        height: 550px;
+        background-image: url("../Imagenes/original/Antigua,_Guatemala.jpg");
+        background-size: 100% 100%;
+        margin:auto;
+        top: 110px;
+    }
+    .login{
+        position: relative;
+        width: 90%;
+        height: 600px;
+        margin: auto;
+        top: 150px;
+        background-color: aliceblue;    
+    }
+    .pie{
+        position: relative;
+        width: 100%;
+        height: 150px;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.82);
+    }
+}
+
+/*Estilo para computadoras*/
+@media only screen and (min-width: 960px){
+    body{
+        background-color: darkkhaki;
+    }
+    .cuerpo{
+        position: relative;
+        width: 1100px;
+        height: 100%;
+        margin: auto;
+        background-color: darkkhaki;
+    }
+    .enca{
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        z-index: 1;
+        color: white;
+        font-family: nova;
+        font-size: 15pt;
+    }
+    .foto{
+        position: relative;
+        width: 40%;
+        height: 350px;
+        background-image: url("../Imagenes/original/Antigua,_Guatemala.jpg");
+        background-size: 100% 100%;
+        left: 30px;
+        top: 250px;
+    }
+    .login{
+        position: absolute;
+        width: 50%;
+        height: 450px;
+        left: 49%;
+        top: 200px;
+        background-color: aliceblue;    
+    }
+    .pie{
+        position: fixed;
+        width: 100%;
+        height: 150px;
+        top: 820px;
+        background-color: rgba(0, 0, 0, 0.82);
+    }
+}
